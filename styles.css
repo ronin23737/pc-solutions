@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+/* Hero Section */
+/* styles.css */
+
+/* Hero section with modern black gradient background */
+.hero {
+    background: linear-gradient(to right, #434343, #000000); /* Dark grey to black gradient */
+    color: #fff;
+    padding: 80px 0; /* Increased padding for a larger hero section */
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem; /* Larger font size for the headline */
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.25rem; /* Slightly larger font size for the subtitle */
+}
+/* Services Section */
+/* styles.css */
+
+/* Gradient backgrounds for service items */
+.service-item {
+    background: linear-gradient(to right, #fbc2eb, #a6c0fe); /* Example gradient */
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px; /* Spacing between service items */
+}
+
+.service-item h3 {
+    margin-top: 0;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Different gradient backgrounds for each service item */
+.bg-service-1 {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Coral to peach gradient */
+}
+
+.bg-service-2 {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Purple to blue gradient */
+}
+
+.bg-service-3 {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4); /* Pink to light pink gradient */
+}
+
+.bg-service-4 {
+    background: linear-gradient(to right, #00c6ff, #0072ff); /* Light blue to dark blue gradient */
+}
+
+.bg-service-5 {
+    background: linear-gradient(to right, #ff9a8b, #ff6a00); /* Light orange to dark orange gradient */
+}
+
+.bg-service-6 {
+    background: linear-gradient(to right, #00d2ff, #3a7bd5); /* Light blue to darker blue gradient */
+}
+.services .card-img-top {
+    border-bottom: 1px solid #ddd;
+}
+
+/* About Us Section */
+.about {
+    padding: 60px 0;
+}
+
+/* Contact Section */
+.contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+}
